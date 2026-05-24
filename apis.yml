@@ -1,0 +1,94 @@
+aid: covariant
+name: Covariant
+description: >-
+  Covariant is an Emeryville, California warehouse-robotics AI company founded
+  in 2017 (originally as Embodied Intelligence) by UC Berkeley professor
+  Pieter Abbeel and his former students Peter Chen, Rocky Duan, and Tianhao
+  Zhang. The company builds the Covariant Brain, a universal AI platform that
+  enables industrial picking robots to handle virtually any SKU regardless of
+  shape, size, or packaging, and in March 2024 it introduced RFM-1
+  (Robotics Foundation Model 1), an 8-billion-parameter multimodal transformer
+  trained on text, images, video, robot actions, and numerical sensor
+  readings to give robots human-like reasoning over the physical world.
+  Covariant ships AI-powered solutions for order picking, sortation, item
+  induction, kitting, depalletization, and goods-to-person workflows,
+  delivered through long-running integration partnerships with KNAPP
+  (Pick-it-Easy Robot, since 2020) and ABB (warehouse robotics, since 2020),
+  as well as deployments with retailers and logistics providers worldwide.
+  In August 2024, Amazon announced a non-exclusive license to Covariant's
+  robotic foundation models and hired its three co-founders along with
+  roughly a quarter of its workforce in a reverse-acquihire arrangement;
+  Covariant continues to operate independently under COO-turned-CEO Ted
+  Stinson and co-founder Tianhao Zhang. The Covariant Brain and RFM-1 are
+  proprietary, deployed on-premise on partner robotics hardware, and the
+  company has no public developer API, SDK, open-source release, or
+  third-party developer program.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - Warehouse Robotics
+  - Warehouse Automation
+  - Industrial Robotics
+  - AI Robotics
+  - Embodied AI
+  - Foundation Models
+  - Robotics Foundation Model
+  - RFM-1
+  - Covariant Brain
+  - Picking Robots
+  - Depalletization
+  - Sortation
+  - Goods-to-Person
+  - Logistics
+  - Supply Chain
+  - Manufacturing
+url: https://raw.githubusercontent.com/api-evangelist/covariant/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://covariant.ai
+  - type: CovariantBrain
+    url: https://covariant.ai/covariant-brain/
+  - type: Research
+    url: https://covariant.ai/research/
+  - type: About
+    url: https://covariant.ai/about-us/
+  - type: Resources
+    url: https://covariant.ai/resources/
+  - type: AutomationSolutions
+    url: https://covariant.ai/resources/automation-solutions/
+  - type: Blog
+    url: https://covariant.ai/resources/blog/
+  - type: Insights
+    url: https://covariant.ai/insights/
+  - type: GoodsToPersonPicking
+    url: https://covariant.ai/robotic-goods-to-person-picking/
+  - type: Depalletization
+    url: https://covariant.ai/robotic-depalletization/
+  - type: RFM1Announcement
+    url: https://covariant.ai/covariant-introduces-rfm-1-to-give-robots-the-human-like-ability-to-reason/
+  - type: KNAPPPartnership
+    url: https://covariant.ai/knapp-and-covariant-extend-their-success-story/
+  - type: Contact
+    url: https://covariant.ai/contact/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/covariantai
+  - type: Twitter
+    url: https://twitter.com/CovariantAI
+  - type: Medium
+    url: https://medium.com/covariant-ai
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Covariant_(company)
+  - type: CrunchbasePieterAbbeel
+    url: https://www.crunchbase.com/person/pieter-abbeel
+  - type: AmazonLicensingNews
+    url: https://www.geekwire.com/2024/amazon-hires-covariant-founders-inks-licensing-deal-with-robotics-ai-startup-in-latest-reverse-acquihire-deal/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
