@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "covariant": "https://covariant.ai/vocab#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Covariant": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "description": "schema:description",
+    "industry": "schema:industry",
+    "foundingDate": "schema:foundingDate",
+    "foundingLocation": "schema:foundingLocation",
+    "sameAs": {
+      "@id": "schema:sameAs",
+      "@type": "@id"
+    },
+
+    "CovariantBrain": {
+      "@id": "covariant:CovariantBrain",
+      "@type": "@id"
+    },
+    "RFM1": {
+      "@id": "covariant:RFM1",
+      "@type": "@id"
+    },
+    "PickingRobot": {
+      "@id": "covariant:PickingRobot",
+      "@type": "@id"
+    },
+    "SKU": {
+      "@id": "covariant:SKU",
+      "@type": "@id"
+    },
+    "depalletization": {
+      "@id": "covariant:depalletization",
+      "@type": "xsd:string"
+    },
+    "sortation": {
+      "@id": "covariant:sortation",
+      "@type": "xsd:string"
+    },
+    "goodsToPerson": {
+      "@id": "covariant:goodsToPerson",
+      "@type": "xsd:string"
+    },
+    "orderPicking": {
+      "@id": "covariant:orderPicking",
+      "@type": "xsd:string"
+    },
+    "itemInduction": {
+      "@id": "covariant:itemInduction",
+      "@type": "xsd:string"
+    },
+    "kitting": {
+      "@id": "covariant:kitting",
+      "@type": "xsd:string"
+    },
+    "roboticsFoundationModel": {
+      "@id": "covariant:roboticsFoundationModel",
+      "@type": "xsd:string"
+    },
+    "embodiedAI": {
+      "@id": "covariant:embodiedAI",
+      "@type": "xsd:string"
+    },
+    "warehouseAutomation": {
+      "@id": "covariant:warehouseAutomation",
+      "@type": "xsd:string"
+    },
+    "integrationPartner": {
+      "@id": "covariant:integrationPartner",
+      "@type": "@id"
+    },
+    "parameters": {
+      "@id": "covariant:parameters",
+      "@type": "xsd:integer"
+    },
+    "modalities": {
+      "@id": "covariant:modalities",
+      "@type": "xsd:string"
+    }
+  }
+}

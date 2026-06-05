@@ -1,0 +1,138 @@
+vocabulary:
+  name: Covariant Industrial Robotics Vocabulary
+  description: >-
+    Key concepts, systems, and workflows associated with Covariant's AI-powered
+    warehouse robotics platform, including the Covariant Brain universal AI,
+    the RFM-1 robotics foundation model, and related industrial automation
+    workflows for fulfillment, logistics, and manufacturing.
+  version: "1.0"
+  terms:
+
+    - term: Covariant Brain
+      definition: >-
+        Covariant's proprietary universal AI platform that enables industrial
+        picking robots to handle virtually any SKU regardless of shape, size,
+        or packaging. Deployed on-premise on partner robotics hardware from
+        integrators such as KNAPP and ABB.
+      tags:
+        - ai-platform
+        - robotics
+        - on-premise
+
+    - term: RFM-1
+      definition: >-
+        Robotics Foundation Model 1 — an 8-billion-parameter multimodal
+        transformer introduced in March 2024, trained on text, images, video,
+        robot actions, and numerical sensor readings to give robots human-like
+        reasoning over the physical world.
+      tags:
+        - foundation-model
+        - multimodal
+        - transformer
+        - embodied-ai
+
+    - term: Picking Robot
+      definition: >-
+        An industrial robotic arm or end-effector equipped with the Covariant
+        Brain that autonomously identifies, grasps, and places individual
+        items (SKUs) within a warehouse or fulfillment center, handling
+        arbitrary product shapes and packaging without manual reprogramming.
+      tags:
+        - robotics
+        - picking
+        - warehouse-automation
+
+    - term: SKU
+      definition: >-
+        Stock Keeping Unit — a unique identifier for a distinct product or
+        item in inventory. In the context of Covariant, robots must handle
+        any SKU they encounter without prior explicit training on that item.
+      tags:
+        - inventory
+        - fulfillment
+        - logistics
+
+    - term: Depalletization
+      definition: >-
+        The robotic process of removing individual cases, totes, or items
+        from an inbound pallet and placing them onto a conveyor or storage
+        location. One of the core automation solutions offered via Covariant's
+        AI platform.
+      tags:
+        - warehouse-automation
+        - inbound-logistics
+        - robotics
+
+    - term: Sortation
+      definition: >-
+        The automated process of identifying, routing, and diverting individual
+        items or packages to the correct destination lane, chute, or conveyor
+        within a fulfillment or distribution center.
+      tags:
+        - warehouse-automation
+        - fulfillment
+        - logistics
+
+    - term: Goods-to-Person (GTP)
+      definition: >-
+        A warehouse fulfillment paradigm in which automated systems bring
+        inventory totes or bins to a stationary human operator or robot picker,
+        reducing travel time and increasing throughput. Covariant offers
+        robotic GTP picking solutions powered by the Covariant Brain.
+      tags:
+        - goods-to-person
+        - fulfillment
+        - warehouse-automation
+
+    - term: Item Induction
+      definition: >-
+        The process of singulating and placing items onto a sorter or
+        conveyor system at the start of a fulfillment workflow. Covariant's
+        AI enables robots to induct mixed-SKU items without manual intervention.
+      tags:
+        - induction
+        - sortation
+        - fulfillment
+
+    - term: Kitting
+      definition: >-
+        The warehouse operation of grouping individual components or products
+        into a single package or assembly kit for shipment or production.
+        Covariant robots can perform kitting tasks across diverse SKU sets.
+      tags:
+        - kitting
+        - assembly
+        - fulfillment
+
+    - term: Embodied AI
+      definition: >-
+        Artificial intelligence that is grounded in physical interaction with
+        the real world through sensors and actuators, such as a robotic arm
+        that perceives its environment via cameras and acts by grasping objects.
+        Covariant's platform and research focus on embodied AI for industrial
+        robotics.
+      tags:
+        - ai
+        - robotics
+        - embodied-intelligence
+
+    - term: Reverse Acquihire
+      definition: >-
+        A transaction structure in which a large company (here, Amazon in
+        August 2024) licenses intellectual property from a startup and
+        simultaneously hires key personnel, while the startup continues to
+        operate independently with the remaining team.
+      tags:
+        - corporate-structure
+        - licensing
+        - amazon
+
+    - term: Integration Partner
+      definition: >-
+        A robotics OEM or systems integrator — such as KNAPP or ABB — that
+        embeds the Covariant Brain into their own hardware and software
+        solutions to deliver AI-powered robotic automation to end customers.
+      tags:
+        - partnership
+        - oem
+        - systems-integration
